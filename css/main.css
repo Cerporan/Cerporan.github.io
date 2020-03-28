@@ -25,6 +25,7 @@
     background: url(../img/main_bg.jpg) no-repeat top/cover;
     max-width: 768px;
     margin: 0 auto;
+    height: 100%;
   }
   .header {
     background: url(../img/header_bg.jpg) no-repeat center top/cover;
