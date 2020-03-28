@@ -1,13 +1,14 @@
 @font-face {
   font-family: 'Roboto Condensed', sans-serif;
-  src: url("../fonts/Robotocondensed.woff2");
+  src: url("../fonts/Robotocondensed.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Adobe Hebrew", serif;
-  src: url("../fonts/ADOBEHEBREW-REGULAR_0.otf");
+  src: url("../fonts/ADOBEHEBREW-REGULAR_0.otf") format("otf");
+  src: url("../fints/ADOBEHEBREW-REGULAR_0.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -88,6 +89,7 @@
     list-style-type: none;
     font-family: "Adobe Hebrew";
     text-align: center;
+    height: 100%;
   }
   .list_link {
     display: block;
