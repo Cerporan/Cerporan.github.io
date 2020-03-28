@@ -188,9 +188,9 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 570px) {
   .container {
-    max-width: 320px;
+    max-width: 100%;
   }
   .header {
     min-height: 266px;
@@ -217,8 +217,10 @@
   .list {
     margin: 0;
   }
+  .flex-item {
+    height: 65px;
+  }
   .flex-item_icon {
-    right: 34px;
     width: 35px;
     height: 35px;
     font-size: 16px;
