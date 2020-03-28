@@ -22,7 +22,7 @@
     white-space: nowrap;
   }
   .container {
-    background: url(../img/main_bg.jpg) repeat top/cover;
+    background: url(../img/main_bg.jpg) no-repeat top/cover;
     max-width: 768px;
     margin: 0 auto;
   }
