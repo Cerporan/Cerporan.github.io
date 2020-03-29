@@ -1,14 +1,13 @@
 @font-face {
   font-family: 'Roboto Condensed', sans-serif;
-  src: url("../fonts/Robotocondensed.woff2") format("woff2");
+  src: url("../fonts/Robotocondensed.woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Adobe Hebrew", serif;
-  src: url("../fonts/ADOBEHEBREW-REGULAR_0.otf") format("otf");
-  src: url("../fints/ADOBEHEBREW-REGULAR_0.woff2") format("woff2");
+  src: url("../fonts/ADOBEHEBREW-REGULAR_0.otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -25,7 +24,6 @@
     background: url(../img/main_bg.jpg) no-repeat top/cover;
     max-width: 768px;
     margin: 0 auto;
-    min-height: 100vh;
   }
   .header {
     background: url(../img/header_bg.jpg) no-repeat center top/cover;
@@ -90,7 +88,6 @@
     list-style-type: none;
     font-family: "Adobe Hebrew";
     text-align: center;
-    height: 100%;
   }
   .list_link {
     display: block;
@@ -198,7 +195,6 @@
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
-    min-height: 100vh;
   }
   .header {
     -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 86%, 50% 100%, 0 86%);
@@ -236,7 +232,6 @@
 @media (max-width: 570px) {
   .container {
     max-width: 100%;
-    min-height: 100vh;
   }
   .header {
     min-height: 266px;
