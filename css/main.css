@@ -199,12 +199,14 @@
     display: block;
     margin: 0 auto;
     margin-top: 8px;
+    padding: 10px;
     width: 342px;
     height: 49px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-size: 23px;
     font-family: "Adobe Hebrew", serif;
     font-weight: bold;
-    line-height: 49px;
     text-align: center;
     letter-spacing: 0.5px;
     -webkit-box-shadow: 0 5px 10px rgba(255, 242, 0, 0.2);
@@ -229,7 +231,6 @@
     width: 360px;
     height: 57px;
     font-size: 26px;
-    line-height: 57px;
   }
   .btn i {
     -webkit-transform: translateY(2px);
@@ -368,13 +369,12 @@
   .btn {
     width: 443px;
     height: 59px;
-    line-height: 60px;
+    padding: 10px;
     font-size: 34px;
   }
   .btn:hover {
     width: 450px;
     height: 66px;
-    line-height: 65px;
     font-size: 38px;
   }
 }
@@ -443,13 +443,12 @@
     width: 210px;
     height: 29px;
     font-size: 14px;
-    line-height: 30px;
+    padding: 7px;
   }
   .btn:hover {
     width: 215px;
     height: 34px;
     font-size: 15px;
-    line-height: 35px;
   }
 }
 /*# sourceMappingURL=main.css.map */
