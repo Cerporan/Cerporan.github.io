@@ -1,0 +1,101 @@
+@media (min-width: 769px)
+  .container
+    max-width: 1024px
+    min-height: 100vh
+
+  .header
+    clip-path: polygon(0% 0%, 100% 0, 100% 78%, 50% 100%, 0 78%)
+    min-height: 470px
+
+  .logo
+    height: 304px
+    top: -141px
+    animation-name: logo-drop
+
+  .contacts
+    padding: 165px 0 66px
+
+  .list
+    margin: 47px 43px 15px
+
+  .flex-item
+    flex-basis: 16%
+
+  .btn
+    width: 443px
+    height: 59px
+    padding: 10px
+    font-size: 34px
+    &:hover
+      transform: scale(1.1)
+
+@media (max-width: 768px)
+  .logo
+    height: 283px
+  .contacts
+    padding-top: 147px
+    h1
+      font-size: 63px
+      span
+        font-size: 36px
+        letter-spacing: 4.4px
+        line-height: normal
+  .list
+    margin: 24px 83px 0 103px
+
+  .btn
+    font-size: 22px
+    img
+      width: 15px
+    &:hover
+      transform: scale(1.1)
+      
+
+@media (min-width: 320px) and (max-width: 570px)
+  .container
+    max-width: 100%
+    min-height: 100vh
+  .header
+    min-height: 192px
+    clip-path: polygon(0% 0%, 100% 0, 100% 82%, 50% 100%, 0 82%)
+  .logo
+    height: 163px
+    top: -68px
+    animation-name: logo-drop-lower
+
+  .contacts
+    padding-top: 98px
+    h1
+      margin-bottom: 40px
+      font-size: 31px
+      letter-spacing: 2px
+      span
+        font-size: 34px
+        letter-spacing: 2px
+        line-height: 6px
+        padding-top: 16px
+
+  .list
+    margin: 0 25px
+
+  .flex-item
+    height: 65px
+    margin-bottom: 35px
+    &_icon
+      img
+        height: 44px
+    &_link
+      margin-top: 54px
+      font-size: 17px
+      letter-spacing: 0.8px
+  .btn
+    width: 225px
+    height: 36px
+    font-size: 18px
+    padding: 7px
+    img
+      height: 10px
+      
+@media (max-width: 319px)
+  .container
+    display: none
